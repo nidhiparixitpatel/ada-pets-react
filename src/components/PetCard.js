@@ -9,6 +9,7 @@ import speciesEmoji from '../speciesEmoji';
 
 const PetCard = (props) => {
   const { id, name, species, about, location } = props;
+  console.log("here")
   return (
     <div className="card pet-card">
 
